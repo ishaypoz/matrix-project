@@ -1,0 +1,13 @@
+.index-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .index-buttons-wrapper{
+        padding: 25px;
+        .add-btn{
+            padding: 5px;
+            margin: 5px;
+            cursor: pointer;
+        }
+    }
+}

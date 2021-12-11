@@ -1,0 +1,9 @@
+<div class="graph-wrapper">
+    <div class="graph" *ngIf="isShowCompanyGraph">
+        <canvas     baseChart
+                    chartType="bar"
+                    [datasets]="chart.datasets"
+                    [labels]="chart.labels">
+        </canvas>
+    </div>
+</div>
